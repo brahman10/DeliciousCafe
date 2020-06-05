@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cfood"
+    android:alpha="0.8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delicious Cafe"
+        android:textSize="40dp"
+        android:id="@+id/txtname"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Complete Food Solution"
+        android:textSize="25dp"
+        android:id="@+id/txtname1"
+        android:layout_below="@+id/txtname"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text="@string/info"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:textSize="20dp"
+        android:id="@+id/txtdes"
+        android:layout_below="@+id/txtname1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdes"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:textColor="#D3D3D3"
+        android:layout_alignParentRight="true"
+        android:text="Contact Us At \n27/A\nAndheri Road\nMumbai"/>
+
+</RelativeLayout>
